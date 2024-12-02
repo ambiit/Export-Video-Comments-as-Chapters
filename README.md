@@ -53,7 +53,7 @@ This plugin exports video comments from the Eagle app as chapters. It enables a 
 
 - **Why are chapters not exported even after selecting a video with comments in the Eagle app?**
 
-  In the Eagle app, right-click the file and select [Other] - [Update Thumbnail], then try exporting the chapters again.
+  In the Eagle app, right-click the file and select [More...] - [Refresh Thumbnail], then try exporting the chapters again.
 
 - **Why are chapters not loaded in the video when played with mpv?**
 
