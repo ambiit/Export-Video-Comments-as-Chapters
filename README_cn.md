@@ -1,4 +1,4 @@
-# Eagle 插件: 将视频评论导出为章节
+# Eagle插件 : 将视频评论导出为章节
 
 [English](README.md)
 
