@@ -1,0 +1,16 @@
+{
+    "manifest": {
+        "app": {
+            "name": "Export Video Comments as Chapters"
+        }
+    },
+    "message": {
+        "ready": "Getting ready...",
+        "noitem": "No item selected.",
+        "onlyvideo": "Only video files can have chapters output.",
+        "progress": "In progress..."
+    },
+    "button": {
+        "cancel": "Cancel"
+    }
+}

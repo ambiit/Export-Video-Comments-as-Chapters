@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <style>
+        html {
+            font-size: 14px;
+            font-family: sans-serif;
+            border-radius: 14px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        body {
+            padding: 14px;
+            background-color: transparent;
+        }
+
+        progress {
+            width:100%;
+            visibility: hidden;
+        }
+
+        #progress{
+            padding-top:0.1em;
+            padding-bottom:0.4em;
+        }
+
+        button {
+            border-style: solid;
+            border-radius: 7px;
+            padding: 2px 28px;
+            background-color: transparent;
+        }
+
+        /* colors for different themes */
+        body[theme="LIGHT"],
+        body[theme="LIGHTGRAY"] {
+            color: black;
+        }
+
+        body[theme="GRAY"],
+        body[theme="BLUE"],
+        body[theme="PURPLE"],
+        body[theme="DARK"] {
+            color: white;
+        }
+
+        body[theme="LIGHT"] button,
+        body[theme="LIGHTGRAY"] button{
+            color: black;
+        }
+
+        body[theme="GRAY"] button,
+        body[theme="BLUE"] button,
+        body[theme="PURPLE"] button,
+        body[theme="DARK"] button {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id = "caption"></div>
+    <div id = "progress"><progress id="pb" value="0"></progress></div>
+    <div id = "button"><button  type="button" id ="cancel"></button></div>
+</body>
+<script type="text/javascript" src="js/plugin.js"></script>
+</html>

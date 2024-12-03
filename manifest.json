@@ -1,0 +1,26 @@
+{
+    "id": "63195dac-22e8-4b40-8ff8-740cffb7b4a3",
+    "version": "1.0.0",
+    "platform": "all",
+    "arch": "all",
+    "name": "{{manifest.app.name}}",
+    "logo": "/logo.png",
+    "fallbackLanguage": "en",
+    "languages": ["en", "zh_TW", "zh_CN", "ja_JP"],
+    "keywords": [],
+    "devTools": false,
+    "main": {
+        "url": "index.html",
+        "width": 360,
+        "height": 120,
+        "alwaysOnTop": true,
+        "frame": false,
+        "fullscreenable": false,
+        "maximizable": false,
+        "minimizable": false,
+        "resizable": false,
+        "shortcut": "",
+        "multiple": false,
+        "runAfterInstall": false
+    }
+}
