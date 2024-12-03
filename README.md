@@ -2,7 +2,7 @@
 
 [日本語](README_jp.md)
 
-## About This File
+## About This Plugin
 This plugin exports video comments from the Eagle app as chapters. It enables a video player based on mpv to load the video comments input in Eagle as chapters and play the video accordingly.
 
 ## Usage
