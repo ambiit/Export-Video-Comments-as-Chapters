@@ -7,7 +7,6 @@
         html {
             font-size: 14px;
             font-family: sans-serif;
-            border-radius: 14px;
             overflow: hidden;
             text-align: center;
         }
@@ -17,14 +16,20 @@
             background-color: transparent;
         }
 
+        #logo{
+            display: block;
+            margin: 0 auto 7px;
+        }
+
         progress {
-            width:100%;
+            width: 100%;
+            vertical-align: 0;
             visibility: hidden;
+            
         }
 
         #progress{
-            padding-top:0.1em;
-            padding-bottom:0.4em;
+            line-height: 2;
         }
 
         button {
@@ -62,6 +67,7 @@
 </head>
 
 <body>
+    <img id = "logo" src="logo.png" alt="logo" width="24" height="24" />
     <div id = "caption"></div>
     <div id = "progress"><progress id="pb" value="0"></progress></div>
     <div id = "button"><button  type="button" id ="cancel"></button></div>
