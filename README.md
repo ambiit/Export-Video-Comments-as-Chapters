@@ -17,8 +17,11 @@ This plugin exports video comments from the Eagle app as chapters. It enables a 
 - From the Eagle app's [Plugin] menu, select [Plugin Center] and install [Export Video Comments as Chapters].
 
 - Install a video player based on mpv ([mpv](https://mpv.io) , [IINA](https://iina.io) , etc.).
+    - mpv : [https://mpv.io](https://mpv.io)
+    - IINA : [https://iina.io](https://iina.io)
 
 - Download the script [chapter-make-read.lua](https://github.com/dyphire/mpv-scripts) to enable mpv to load external chapter files. (Note: `chapter-make-read.lua` is an unofficial script for mpv created by a third party.)
+    - chapter-make-read.lua : [https://github.com/dyphire/mpv-scripts](https://github.com/dyphire/mpv-scripts)
 
 - Place `chapter-make-read.lua` in the following locations:
     - Windows : `C:/Users/Username/AppData/Roaming/mpv/scripts/chapter-make-read.lua`
