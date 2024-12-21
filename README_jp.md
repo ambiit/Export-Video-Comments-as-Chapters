@@ -18,8 +18,11 @@ mpvをベースとした動画プレーヤーでEagleで入力した動画コメ
 - Eagleアプリの [プラグイン] メニューから [プラグインセンター] を選び、 [動画コメントをチャプターとして出力] をインストールします。
 
 - mpvをベースとした動画プレーヤー([mpv](https://mpv.io) 、 [IINA](https://iina.io) など) をインストールします。
+    - mpv : [https://mpv.io](https://mpv.io)
+    - IINA : [https://iina.io](https://iina.io)
 
 - mpvで外部のチャプターファイルを読み込むためのスクリプト [chapter-make-read.lua](https://github.com/dyphire/mpv-scripts) をダウンロードします。(`chapter-make-read.lua`はサードパーティーによるmpv非公式のスクリプトです。)
+    - chapter-make-read.lua : [https://github.com/dyphire/mpv-scripts](https://github.com/dyphire/mpv-scripts)
 
 - `chapter-make-read.lua`を以下の場所に配置します。
     - Windows : `C:/Users/Username/AppData/Roaming/mpv/scripts/chapter-make-read.lua`
