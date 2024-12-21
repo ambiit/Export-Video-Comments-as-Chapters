@@ -17,8 +17,11 @@
 - 从 Eagle 应用的 [插件] 菜单中选择 [插件中心] 并安装 [将视频标注汇出为章节]。
 
 - 安装基于 mpv 的视频播放器 ([mpv](https://mpv.io) , [IINA](https://iina.io) , 等)。
+    - mpv : [https://mpv.io](https://mpv.io)
+    - IINA : [https://iina.io](https://iina.io)
 
 - 下载脚本 [chapter-make-read.lua](https://github.com/dyphire/mpv-scripts) 以启用 mpv 加载外部章节文件。（注意：`chapter-make-read.lua` 是第三方创建的非官方 mpv 脚本。）
+    - chapter-make-read.lua : [https://github.com/dyphire/mpv-scripts](https://github.com/dyphire/mpv-scripts)
 
 - 将 `chapter-make-read.lua` 放置在以下位置：
     - Windows : `C:/Users/Username/AppData/Roaming/mpv/scripts/chapter-make-read.lua`
