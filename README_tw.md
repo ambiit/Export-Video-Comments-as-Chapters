@@ -3,49 +3,51 @@
 [English](README.md)
 
 ## 關於此插件
-此插件將 Eagle 應用中的視頻標註導出為章節。它使基於 mpv 的視頻播放器能夠加載 Eagle 中輸入的視頻標註作為章節，並相應地播放視頻。
+
+此外掛程式將 Eagle 應用程式中輸入的視頻標註匯出為章節檔案。
+它使基於 mpv 的視頻播放器能夠載入並播放視頻標註作為章節。
 
 ## 使用方法
+
 - 在 Eagle 應用中選擇帶有標註的視頻。
 - 從 [插件] 菜單中選擇 [將視頻標註匯出為章節]。
 - 視頻標註將被導出為章節文件。
 - 使用 mpv 從 Eagle 應用中打開視頻。
-- Eagle 應用中輸入的視頻標註將作為章節加載到 mpv 中，並相應播放視頻。
+- 在 Eagle 應用程式中輸入的視頻標註將作為章節載入 mpv，視頻將據此播放。
 
 ## 安裝和所需設置
 
 - 從 Eagle 應用的 [插件] 菜單中選擇 [插件中心] 並安裝 [將視頻標註匯出為章節]。
 
 - 安裝基於 mpv 的視頻播放器 ([mpv](https://mpv.io) 和 [IINA](https://iina.io) 等)。
-    - mpv : [https://mpv.io](https://mpv.io)
-    - IINA : [https://iina.io](https://iina.io)
+  - mpv : [https://mpv.io](https://mpv.io)
+  - IINA : [https://iina.io](https://iina.io)
 
 - 下載腳本 [chapter-make-read.lua](https://github.com/dyphire/mpv-scripts) 以啟用 mpv 加載外部章節文件。（注意:`chapter-make-read.lua` 是第三方創建的非官方 mpv 腳本）
-    - chapter-make-read.lua : [https://github.com/dyphire/mpv-scripts](https://github.com/dyphire/mpv-scripts)
+  - chapter-make-read.lua : [https://github.com/dyphire/mpv-scripts](https://github.com/dyphire/mpv-scripts)
 
 - 將 `chapter-make-read.lua` 放置在以下位置：
-    - Windows : `C:/Users/Username/AppData/Roaming/mpv/scripts/chapter-make-read.lua`
-    - macOS : `~/.config/mpv/scripts/chapter-make-read.lua`
+  - Windows : `C:/Users/Username/AppData/Roaming/mpv/scripts/chapter-make-read.lua`
+  - macOS : `~/.config/mpv/scripts/chapter-make-read.lua`
 
 - 創建一個配置文件 `chapter_make_read.conf` 作為文本文件，並輸入以下內容：
-    ```chapter_make_read.conf
-    global_chapters=yes
-    ```
-  
+  ```chapter_make_read.conf
+  global_chapters=yes
+  ```
 - 將配置文件 `chapter_make_read.conf` 放置在以下位置：
-    - Windows : `C:/Users/Username/AppData/Roaming/mpv/script-opts/chapter_make_read.conf`
-    - macOS : `~/.config/mpv/script-opts/chapter_make_read.conf`
-  
+  - Windows : `C:/Users/Username/AppData/Roaming/mpv/script-opts/chapter_make_read.conf`
+  - macOS : `~/.config/mpv/script-opts/chapter_make_read.conf`
+
 ## 常見問題解答
 
 - **創建的章節文件保存在哪裡？**
 
   它們保存在 `~/.config/mpv/chapters` 中。
- 
+
 - **如何刪除創建的章節文件？**
 
   刪除保存在 `~/.config/mpv/chapters` 中的文件。
-   
+
 - **如果在 Eagle 應用中更改視頻標註或文件名會發生什麼？**
 
   章節文件不會更新。再次運行 [將視頻標註匯出為章節] 以更新它們。
