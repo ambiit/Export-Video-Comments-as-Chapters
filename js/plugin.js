@@ -10,7 +10,7 @@ function sleep(ms) {
 
 async function InAppCancel() {
   await sleep(2000);
-  //window.close();
+  window.close();
 }
 
 function CnvCommentToChapter(duration) {
