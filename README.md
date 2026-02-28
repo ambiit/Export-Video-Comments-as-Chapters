@@ -3,9 +3,12 @@
 [日本語](README_jp.md)
 
 ## About This Plugin
-This plugin exports video comments from the Eagle app as chapters. It enables a video player based on mpv to load the video comments input in Eagle as chapters and play the video accordingly.
+
+This plugin exports video comments entered in the Eagle app as chapter files.
+It enables video players based on mpv to load and play video comments as chapters.
 
 ## Usage
+
 - Select a video with comments in the Eagle app.
 - From the [Plugin] menu, select [Export Video Comments as Chapters].
 - The video comments will be exported as a chapter file.
@@ -17,35 +20,34 @@ This plugin exports video comments from the Eagle app as chapters. It enables a 
 - From the Eagle app's [Plugin] menu, select [Plugin Center] and install [Export Video Comments as Chapters].
 
 - Install a video player based on mpv ([mpv](https://mpv.io) , [IINA](https://iina.io) , etc.).
-    - mpv : [https://mpv.io](https://mpv.io)
-    - IINA : [https://iina.io](https://iina.io)
+  - mpv : [https://mpv.io](https://mpv.io)
+  - IINA : [https://iina.io](https://iina.io)
 
 - Download the script [chapter-make-read.lua](https://github.com/dyphire/mpv-scripts) to enable mpv to load external chapter files. (Note: `chapter-make-read.lua` is an unofficial script for mpv created by a third party.)
-    - chapter-make-read.lua : [https://github.com/dyphire/mpv-scripts](https://github.com/dyphire/mpv-scripts)
+  - chapter-make-read.lua : [https://github.com/dyphire/mpv-scripts](https://github.com/dyphire/mpv-scripts)
 
 - Place `chapter-make-read.lua` in the following locations:
-    - Windows : `C:/Users/Username/AppData/Roaming/mpv/scripts/chapter-make-read.lua`
-    - macOS : `~/.config/mpv/scripts/chapter-make-read.lua`
+  - Windows : `C:/Users/Username/AppData/Roaming/mpv/scripts/chapter-make-read.lua`
+  - macOS : `~/.config/mpv/scripts/chapter-make-read.lua`
 
 - Create a configuration file `chapter_make_read.conf` as a text file and enter the following content:
-    ```chapter_make_read.conf
-    global_chapters=yes
-    ```
-  
+  ```chapter_make_read.conf
+  global_chapters=yes
+  ```
 - Place the configuration file `chapter_make_read.conf` in the following locations:
-    - Windows : `C:/Users/Username/AppData/Roaming/mpv/script-opts/chapter_make_read.conf`
-    - macOS : `~/.config/mpv/script-opts/chapter_make_read.conf`
-  
+  - Windows : `C:/Users/Username/AppData/Roaming/mpv/script-opts/chapter_make_read.conf`
+  - macOS : `~/.config/mpv/script-opts/chapter_make_read.conf`
+
 ## FAQ
 
 - **Where are the created chapter files saved?**
 
   They are saved in `~/.config/mpv/chapters`.
- 
+
 - **How do I delete the created chapter files?**
 
   Delete the files saved in `~/.config/mpv/chapters`.
-   
+
 - **What happens if I change video comments or file names in the Eagle app?**
 
   The chapter files will not be updated. Run [Export Video Comments as Chapters] again to update them.
