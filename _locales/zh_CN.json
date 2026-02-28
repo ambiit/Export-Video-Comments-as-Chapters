@@ -1,16 +1,15 @@
 {
-    "manifest": {
-        "app": {
-            "name": "将视频标注汇出为章节"
-        }
-    },
-    "message": {
-        "ready": "准备工作...",
-        "noitem": "未选择任何项目。",
-        "onlyvideo": "只有视频文件才可以输出章节。",
-        "progress": "进行中..."
-    },
-    "button": {
-        "cancel": "取消"
+  "manifest": {
+    "app": {
+      "name": "将视频标注汇出为章节"
     }
+  },
+  "message": {
+    "ready": "准备工作...",
+    "noitem": "未选择任何项目。",
+    "progress": "进行中..."
+  },
+  "button": {
+    "cancel": "取消"
+  }
 }
