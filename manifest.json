@@ -18,7 +18,7 @@
     "fullscreenable": false,
     "maximizable": false,
     "minimizable": false,
-    "resizable": true,
+    "resizable": false,
     "shortcut": "",
     "multiple": false,
     "runAfterInstall": false,
