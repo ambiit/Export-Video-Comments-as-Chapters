@@ -22,7 +22,7 @@
 - 安裝基於 mpv 的視頻播放器。
   - mpv (原來的): [https://mpv.io](https://mpv.io)
   - IINA (macOS GUI): [https://iina.io](https://iina.io)
-  - mpv.net (Windows GUI): [https://github.com/mpvnet-player/mpv.net)](https://github.com/mpvnet-player/mpv.net)
+  - mpv.net (Windows GUI): [https://github.com/mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net)
 
 - 下載腳本 `chapter-make-read.lua` 以啟用 mpv 加載外部章節文件。（注意: `chapter-make-read.lua` 是第三方創建的非官方 mpv 腳本）
   - chapter-make-read.lua : [https://github.com/dyphire/mpv-scripts](https://github.com/dyphire/mpv-scripts)
