@@ -1,6 +1,6 @@
 {
   "id": "63195dac-22e8-4b40-8ff8-740cffb7b4a3",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "platform": "all",
   "arch": "all",
   "name": "{{manifest.app.name}}",
@@ -18,9 +18,11 @@
     "fullscreenable": false,
     "maximizable": false,
     "minimizable": false,
-    "resizable": false,
+    "resizable": true,
     "shortcut": "",
     "multiple": false,
-    "runAfterInstall": false
+    "runAfterInstall": false,
+    "childWindow": true,
+    "show": false
   }
 }
