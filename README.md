@@ -22,7 +22,7 @@ It enables video players based on mpv to load and play video comments as chapter
 - Install a video player based on mpv.
   - mpv (original): [https://mpv.io](https://mpv.io)
   - IINA (macOS GUI): [https://iina.io](https://iina.io)
-  - mpv.net (Windows GUI): [https://github.com/mpvnet-player/mpv.net)](https://github.com/mpvnet-player/mpv.net)
+  - mpv.net (Windows GUI): [https://github.com/mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net)
 
 - Download the script `chapter-make-read.lua` to enable mpv to load external chapter files. (Note: `chapter-make-read.lua` is an unofficial script for mpv created by a third party.)
   - chapter-make-read.lua : [https://github.com/dyphire/mpv-scripts](https://github.com/dyphire/mpv-scripts)
