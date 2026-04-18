@@ -100,6 +100,10 @@ eagle.onPluginCreate(async (plugin) => {
   const readyText = i18next.t("message.ready");
   ControlMessage(readyText);
 
+  //show
+  await eagle.window.center();
+  await eagle.window.show();
+
   const fs = require("fs");
   const path = require("path");
 
